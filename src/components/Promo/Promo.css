@@ -1,0 +1,48 @@
+.promo {
+
+}
+
+.promo__blobs {
+    display: flex;
+    position: relative;
+
+}
+
+.promo__blobs-pink {
+    position: absolute;
+    right: 0;
+}
+
+.promo__blobs-purple {
+    position: absolute;
+    right: 0;
+}
+
+.promo__blur-image {
+    display: flex;
+    position: relative;
+}
+
+.promo__blur-image_w {
+    position: absolute;
+    left: 92px;
+    top: 162px;
+}
+
+.promo__blur-image_c {
+    position: absolute;
+    top: 212px;
+    left: 450px;
+}
+
+.promo__blur-image_square {
+    position: absolute;
+    right: 80px;
+    top: 443px;
+}
+
+.promo__blur-image_yellow {
+    position: absolute;
+    top: 174px;
+    right: 508px;
+}
