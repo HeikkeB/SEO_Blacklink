@@ -12,7 +12,7 @@ export default function Header() {
             (navi) ? (<Navigation />) : (
               <div className='header'>
                 <nav>
-                <div className='navigation__register'>
+                <div className={(navi) ? 'navigation__register' : 'navigation__register_active'}>
                   <Link className='navigation__link' to='/'>Login</Link>
                   <Link className='navigation__button' to='/'>Sign up</Link>
                 </div>
