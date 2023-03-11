@@ -5,6 +5,8 @@ import WelcomeContent from '../WelcomeContent/WelcomeContent';
 import LinkPyromids from '../LinkPyromids/LinkPyromids';
 import WideScope from '../WideScope/WideScope';
 import Clients from '../Clients/Clients';
+import Payments from '../Payments/Payments';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
     <LinkPyromids />
     <WideScope />
     <Clients />
+    <Payments />
+    <Footer />
     </div>
   );
 }

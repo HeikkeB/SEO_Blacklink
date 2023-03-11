@@ -1,0 +1,8 @@
+.footer {
+    position: absolute;
+    top: 4770px;
+}
+
+.footer__menu {
+    display: flex;
+}
