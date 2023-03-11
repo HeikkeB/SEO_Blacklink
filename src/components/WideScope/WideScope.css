@@ -1,0 +1,53 @@
+.widescope {
+    position: absolute;
+    top: 2050px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.widescope__brands-img {
+    width: 528px;
+    height: 501px;
+    margin-right: 180px;
+}
+
+.widescope__texting {
+    margin-bottom: 63px;
+}
+
+.widescope__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 138%;
+    color: #333333;
+    width: 371px;
+    padding: 0;
+    margin: 15px 0 30px;
+}
+
+.widescope__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: rgba(51, 51, 51, 0.5);
+    width: 402px;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+.widescope__link {
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    color: #4BEE6F;
+}
