@@ -12,7 +12,7 @@
 }
 
 .navigation__link {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 10px;
     line-height: 170%;
@@ -21,6 +21,12 @@
     margin-right: 25px;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
+    transition: all;
+}
+
+.navigation__link:hover {
+    opacity: 0.5;
 }
 
 .navigation__button {
@@ -36,6 +42,7 @@
     text-decoration: none;
     margin-right: 25px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .navigation__register {
